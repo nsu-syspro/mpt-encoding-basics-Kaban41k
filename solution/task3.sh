@@ -5,4 +5,4 @@
 
 export LC_ALL="ru_RU.UTF-8"
 
-date "+%-d %B %Y года, %A" "$@"
+date "+%-d %B %Y года, %A" -d "$@"

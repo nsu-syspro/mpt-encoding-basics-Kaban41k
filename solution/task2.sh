@@ -5,4 +5,4 @@
 
 export LC_ALL="ru_RU.UTF-8"
 
-date "+%H час/а/ов %M минут/ы" "$@"
+date "+%H час/а/ов %M минут/ы" -d "$@"
